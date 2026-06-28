@@ -3,6 +3,14 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Sun, 28 Jun 2026 19:19:31 +0100</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v1.0.5/Scribe-1.0.5.zip" length="5809128" type="application/octet-stream" sparkle:edSignature="TByUGFwnSLpBhQAixBP1JvphkDd/SB+p19nKZNk247UWiEHtu6d5U4on30HWBCfwA1p98Ecownk0kCKbGkG3DQ=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Sun, 28 Jun 2026 19:12:43 +0100</pubDate>
             <sparkle:version>5</sparkle:version>
