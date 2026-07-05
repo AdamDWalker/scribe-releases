@@ -3,6 +3,14 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>1.0.9</title>
+            <pubDate>Sun, 05 Jul 2026 10:34:15 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v1.0.9/Scribe-1.0.9.zip" length="5914662" type="application/octet-stream" sparkle:edSignature="5ewcX+181fdqH9BrTR3oHt44hdm736hH9fzskElQ9nZ9bktZO5Y1eCjOIe0IFcg+MF007MeAQ6y5gU+wP91bDg=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <pubDate>Tue, 30 Jun 2026 19:32:09 +0100</pubDate>
             <sparkle:version>9</sparkle:version>
@@ -17,14 +25,6 @@
             <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v1.0.7/Scribe-1.0.7.zip" length="5806242" type="application/octet-stream" sparkle:edSignature="2G9CdSZnzCUQ2PBgYmhPaUm1n+dY4a01QwsZQCnb3wteawbkQr76fgD0Z17C2zBbXmHwMM4S7xcwTYcnDBhuCA=="/>
-        </item>
-        <item>
-            <title>1.0.6</title>
-            <pubDate>Sun, 28 Jun 2026 19:27:49 +0100</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v1.0.6/Scribe-1.0.6.zip" length="5809128" type="application/octet-stream" sparkle:edSignature="dUScFCnIFiJCViqq7Vdc+wh75xyzosF6INeh8H2C2l4qTRueHnP2D0m/QyhtoxKMjkUHhZJDTTe0H77oSnBFCA=="/>
         </item>
     </channel>
 </rss>
