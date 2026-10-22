@@ -3,6 +3,27 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.0.1</title>
+            <pubDate>Thu, 22 Oct 2026 15:04:23 +0000</pubDate>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>The first round of snags from living with 2.0.</em></p>
+<ul>
+  <li>The backlog deals its cards off a pile of books on the table, and each card lands a little higher or lower than its neighbours.</li>
+  <li>Opening a book is one smooth movement again: the title page no longer slides in beside the cover.</li>
+  <li>The reader’s … menu has lost what was left over from before the redesign. Articles and books keep their notes in the margin, so Show Notes is now for PDFs only.</li>
+  <li>Click a highlight to remove it from the note that opens.</li>
+  <li>Details no longer repeats the page colour, which lives in Aa.</li>
+  <li>The menu bar says Scribe, with a capital S.</li>
+  <li>Scribe now looks for updates every hour, not once a day.</li>
+  <li>And this: what’s changed, shown after each update.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.0.1/Scribe-2.0.1.zip" length="9061974" type="application/octet-stream" sparkle:edSignature="f5lNDgIio3tnxTWm+Oqt2z523I607DGV1XbxhXGLFQBjFqoz1STZzS+elbgv2lSv9Yqh2nwwJDWsMOoFsNPuCQ=="/>
+        </item>
+        <item>
             <title>2.0.0</title>
             <pubDate>Thu, 22 Oct 2026 11:21:31 +0100</pubDate>
             <sparkle:version>14</sparkle:version>
