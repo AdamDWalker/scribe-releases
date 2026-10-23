@@ -3,6 +3,33 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.2.0</title>
+            <pubDate>Fri, 23 Oct 2026 21:42:20 +0000</pubDate>
+            <sparkle:version>149</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Scribe says hello, saves many things at once, and the Aa panel slides instead of stepping.</em></p>
+<ul>
+  <li>Tell Scribe your name in Settings, under You, and Today greets you: good morning, afternoon or evening, “Reading late?” after ten, “A new week” on Monday mornings, and “Welcome back” after a long break. Turn it off there too.</li>
+  <li>A brand new library gets a proper welcome on Today: a greeting, a field to paste your first link into, and outlines where your first books will go.</li>
+  <li>Save is one screen now: paste a link at the top, or drop files below. No more tabs.</li>
+  <li>Paste several links at once, one per line, or choose or drop many PDFs and EPUBs, or a whole folder of them. Each is saved in turn, with its progress shown.</li>
+  <li>Close the Save sheet and saving carries on. A “Saving 2 of 5” pill in the top bar shows how it’s going and opens the list again.</li>
+  <li>Anything that couldn’t be saved stays in the list with the reason, and a Retry button.</li>
+  <li>Drop a PDF, an EPUB, a folder or a web link anywhere on Scribe’s window to save it.</li>
+  <li>“Put on the stack” sends what you save straight to your stack instead of the backlog.</li>
+  <li>PDFs whose own title is a leftover from the software that made them, such as “Design” or “370848_Print.indd”, are named after the file instead, tidied up: no ISBN, no author list, and the colon put back.</li>
+  <li>Column width and line spacing are sliders now, so you can set them anywhere between narrow and wide, snug and airy.</li>
+  <li>A new Weight slider makes the text lighter or darker. It suits evening reading, and works with the Serif and Sans faces.</li>
+  <li>Justify gives paragraphs even edges, hyphenated like a printed page.</li>
+  <li>Reset, beside Typeface, puts everything back to Scribe’s own settings.</li>
+  <li>Weight and Justify are in Settings too, under Reading.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.2.0/Scribe-2.2.0.zip" length="9264009" type="application/octet-stream" sparkle:edSignature="EjRHnWD46a07X+bFc1mySjhGlY1cLKsDcBZKKMlSV8xudmjB3dTEhS6hOMR8WyaOxuPuyG8EgmBuqihiJvoxCg=="/>
+        </item>
+        <item>
             <title>2.1.0</title>
             <pubDate>Fri, 23 Oct 2026 15:01:50 +0000</pubDate>
             <sparkle:version>144</sparkle:version>
@@ -34,27 +61,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.0.2/Scribe-2.0.2.zip" length="9065869" type="application/octet-stream" sparkle:edSignature="S9FkH3l4lNx8U2oh+n1dYugS3mkCW0/Quv4wZX7sYmrsLepRpeIiTOMxcQzTHlYwIumlNy+rfJ2a+/shB3iXCQ=="/>
-        </item>
-        <item>
-            <title>2.0.1</title>
-            <pubDate>Thu, 22 Oct 2026 15:04:23 +0000</pubDate>
-            <sparkle:version>140</sparkle:version>
-            <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>The first round of snags from living with 2.0.</em></p>
-<ul>
-  <li>The backlog deals its cards off a pile of books on the table, and each card lands a little higher or lower than its neighbours.</li>
-  <li>Opening a book is one smooth movement again: the title page no longer slides in beside the cover.</li>
-  <li>The reader’s … menu has lost what was left over from before the redesign. Articles and books keep their notes in the margin, so Show Notes is now for PDFs only.</li>
-  <li>Click a highlight to remove it from the note that opens.</li>
-  <li>Details no longer repeats the page colour, which lives in Aa.</li>
-  <li>The menu bar says Scribe, with a capital S.</li>
-  <li>Scribe now looks for updates every hour, not once a day.</li>
-  <li>And this: what’s changed, shown after each update.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.0.1/Scribe-2.0.1.zip" length="9061974" type="application/octet-stream" sparkle:edSignature="f5lNDgIio3tnxTWm+Oqt2z523I607DGV1XbxhXGLFQBjFqoz1STZzS+elbgv2lSv9Yqh2nwwJDWsMOoFsNPuCQ=="/>
         </item>
         <item>
             <title>2.0.0</title>
