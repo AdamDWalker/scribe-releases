@@ -3,6 +3,23 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.3.0</title>
+            <pubDate>Fri, 23 Oct 2026 21:54:30 +0000</pubDate>
+            <sparkle:version>151</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>A welcome for a brand new library.</em></p>
+<ul>
+  <li>Opening Scribe with nothing saved now begins with a short welcome: books settle onto a shelf, then three quick steps. Tell Scribe your name, choose how the page looks, and save something to read.</li>
+  <li>Anything you save during the welcome carries on saving after it, with its progress in the top bar.</li>
+  <li>Settings ▸ Updates &amp; about has Show welcome, to see it again.</li>
+  <li>Today no longer shows its empty-library greeting for a moment while a full library loads.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.3.0/Scribe-2.3.0.zip" length="9337087" type="application/octet-stream" sparkle:edSignature="ed8aHjE9TvabhCH+cX6KGu7XSh2xOv/aX51UjG/A7GhuM4QeJ/ub88NICp4ywU5TrhuLbuPn+Gkzy39o5UXADg=="/>
+        </item>
+        <item>
             <title>2.2.0</title>
             <pubDate>Fri, 23 Oct 2026 21:42:20 +0000</pubDate>
             <sparkle:version>149</sparkle:version>
@@ -45,22 +62,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.1.0/Scribe-2.1.0.zip" length="9138293" type="application/octet-stream" sparkle:edSignature="cUR6QzK25UY5MH4Ox4k1c24jBb16V2KyrV6TjJ1M9FVZ6t0gMYf5VAfDSy1/wDNFDorp+eeTw2kNZ0juLvOFAw=="/>
-        </item>
-        <item>
-            <title>2.0.2</title>
-            <pubDate>Fri, 23 Oct 2026 14:23:12 +0000</pubDate>
-            <sparkle:version>142</sparkle:version>
-            <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>Departments are now Categories, and search lets go when you’re done.</em></p>
-<ul>
-  <li>Departments are now called Categories, and subdepartments subcategories. Your categories, themes and filing are just as you left them.</li>
-  <li>⌘F from any tab opens the Catalogue with the search field ready to type in.</li>
-  <li>Escape, or a click anywhere else, puts the search field down without losing what you typed, and the other tabs work on the first click.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.0.2/Scribe-2.0.2.zip" length="9065869" type="application/octet-stream" sparkle:edSignature="S9FkH3l4lNx8U2oh+n1dYugS3mkCW0/Quv4wZX7sYmrsLepRpeIiTOMxcQzTHlYwIumlNy+rfJ2a+/shB3iXCQ=="/>
         </item>
         <item>
             <title>2.0.0</title>
