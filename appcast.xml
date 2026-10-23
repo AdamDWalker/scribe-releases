@@ -3,6 +3,27 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.4.0</title>
+            <pubDate>Fri, 23 Oct 2026 22:53:56 +0000</pubDate>
+            <sparkle:version>153</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Every piece gets a colophon.</em></p>
+<ul>
+  <li>The colophon replaces Details: a panel on the reader’s right edge, opened with the new “i” beside Aa or with ⌘I.</li>
+  <li>It has the piece’s cover and title (click to rename), then the work itself: author, year, publisher, ISBN, language and length, edited in place.</li>
+  <li>Below that, the piece in your library: category, kind and tags, when you saved it, how far you are, and how many highlights and notes it has. Then its file or original link.</li>
+  <li>New books bring their publisher, ISBN and language with them. PDFs named with their ISBN keep it, and articles keep their language.</li>
+  <li>Highlighting the start of an opening paragraph no longer shrinks its large first letter, and the selection now shows over it.</li>
+  <li>Highlights that end at the end of a paragraph, or run across two, are now tinted all the way through.</li>
+  <li>Quotes in Marginalia and Highlights leave out footnote markers: “Text¹ blah” is kept as “Text blah”.</li>
+  <li>“Put on the stack” in Save now decides for articles too. They used to go on the stack whatever it said.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.4.0/Scribe-2.4.0.zip" length="9370978" type="application/octet-stream" sparkle:edSignature="Ago/hwJtnkUfxmGD/JzkRTl+YCEP2acz51J6mk/hTGA23Oy8F1cZjI5wY2qlYLOMA0YRVyw2+BnWk1C3XrPbAQ=="/>
+        </item>
+        <item>
             <title>2.3.0</title>
             <pubDate>Fri, 23 Oct 2026 21:54:30 +0000</pubDate>
             <sparkle:version>151</sparkle:version>
@@ -45,23 +66,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.2.0/Scribe-2.2.0.zip" length="9264009" type="application/octet-stream" sparkle:edSignature="EjRHnWD46a07X+bFc1mySjhGlY1cLKsDcBZKKMlSV8xudmjB3dTEhS6hOMR8WyaOxuPuyG8EgmBuqihiJvoxCg=="/>
-        </item>
-        <item>
-            <title>2.1.0</title>
-            <pubDate>Fri, 23 Oct 2026 15:01:50 +0000</pubDate>
-            <sparkle:version>144</sparkle:version>
-            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>Settings, rearranged into one long, well-signposted page.</em></p>
-<ul>
-  <li>Settings now lives in the Scribe menu (⌘,), where Mac apps keep it, and the gear has left the top bar.</li>
-  <li>Settings is larger, with a list of sections down the side that follows you as you scroll: Reading, Today &amp; the stack, Library, Categories, Appearance &amp; motion, Shortcuts, and Updates.</li>
-  <li>Set your reading defaults there: typeface, text size, column width and line spacing, each on a slider.</li>
-  <li>See where your library is kept, with a button to show it in Finder, and a list of every keyboard shortcut.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.1.0/Scribe-2.1.0.zip" length="9138293" type="application/octet-stream" sparkle:edSignature="cUR6QzK25UY5MH4Ox4k1c24jBb16V2KyrV6TjJ1M9FVZ6t0gMYf5VAfDSy1/wDNFDorp+eeTw2kNZ0juLvOFAw=="/>
         </item>
         <item>
             <title>2.0.0</title>
