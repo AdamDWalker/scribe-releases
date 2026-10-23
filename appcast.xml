@@ -3,6 +3,22 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.0.2</title>
+            <pubDate>Fri, 23 Oct 2026 14:23:12 +0000</pubDate>
+            <sparkle:version>142</sparkle:version>
+            <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Departments are now Categories, and search lets go when you’re done.</em></p>
+<ul>
+  <li>Departments are now called Categories, and subdepartments subcategories. Your categories, themes and filing are just as you left them.</li>
+  <li>⌘F from any tab opens the Catalogue with the search field ready to type in.</li>
+  <li>Escape, or a click anywhere else, puts the search field down without losing what you typed, and the other tabs work on the first click.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.0.2/Scribe-2.0.2.zip" length="9065869" type="application/octet-stream" sparkle:edSignature="S9FkH3l4lNx8U2oh+n1dYugS3mkCW0/Quv4wZX7sYmrsLepRpeIiTOMxcQzTHlYwIumlNy+rfJ2a+/shB3iXCQ=="/>
+        </item>
+        <item>
             <title>2.0.1</title>
             <pubDate>Thu, 22 Oct 2026 15:04:23 +0000</pubDate>
             <sparkle:version>140</sparkle:version>
