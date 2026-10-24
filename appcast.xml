@@ -3,6 +3,33 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.5.0</title>
+            <pubDate>Sat, 24 Oct 2026 11:02:51 +0000</pubDate>
+            <sparkle:version>162</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Lots of small things: more in Settings, smarter saving, and Aa settings for one piece.</em></p>
+<ul>
+  <li>Aa can change just the piece you’re reading: choose This piece at the top. Make these my defaults hands them to every piece.</li>
+  <li>The colophon shows how long you’ve spent reading a piece, counted while you’re actually reading it.</li>
+  <li>Look up details in the colophon asks Open Library for a book’s missing author, year, publisher and language.</li>
+  <li>Under Today’s greeting, a line about the day: your stack, today’s arrivals, or how far you are through a book.</li>
+  <li>Settings ▸ Reading: a default paper, margin notes on or off, opening articles and PDFs at the top, and when a piece counts as finished.</li>
+  <li>Settings ▸ Today: deal 3, 4 or 5 cards from the backlog, and choose which sections sit beside the stack.</li>
+  <li>Settings ▸ Saving: whether new pieces go on the stack, category suggestions, keeping or skipping duplicates, and importing a reading list from Pocket, Instapaper or a file of links.</li>
+  <li>Settings ▸ Library: how long the bin keeps deleted pieces, a weekly backup of the database, and your whole library as JSON.</li>
+  <li>Settings ▸ Appearance &amp; motion: evening colours on a schedule, and tilting covers on or off.</li>
+  <li>Saving shows how far each piece has got, such as images 3 of 11 or chapter 12 of 49, and warns about paywalled pages, with Save anyway.</li>
+  <li>Save can put everything in one category, and shows the title of a pasted link before you save it.</li>
+  <li>Exporting highlights to Markdown works again. It had been quietly failing to write the file.</li>
+  <li>Quotes saved before 2.4.0 lose their footnote numbers the next time you open their piece.</li>
+  <li>Delete a highlight from the Highlights tab with the bin that appears on hover, or by right-clicking it there or in Marginalia on Today.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.5.0/Scribe-2.5.0.zip" length="9558497" type="application/octet-stream" sparkle:edSignature="LqU9g0jNzO2lPFosC5fwvPXK2pYTnEsY4XMBar+/uEmv/kmKQSEr05c1d0Sj4vZBdVASktipexmjpxhf3mQzAQ=="/>
+        </item>
+        <item>
             <title>2.4.0</title>
             <pubDate>Fri, 23 Oct 2026 22:53:56 +0000</pubDate>
             <sparkle:version>153</sparkle:version>
@@ -39,33 +66,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.3.0/Scribe-2.3.0.zip" length="9337087" type="application/octet-stream" sparkle:edSignature="ed8aHjE9TvabhCH+cX6KGu7XSh2xOv/aX51UjG/A7GhuM4QeJ/ub88NICp4ywU5TrhuLbuPn+Gkzy39o5UXADg=="/>
-        </item>
-        <item>
-            <title>2.2.0</title>
-            <pubDate>Fri, 23 Oct 2026 21:42:20 +0000</pubDate>
-            <sparkle:version>149</sparkle:version>
-            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>Scribe says hello, saves many things at once, and the Aa panel slides instead of stepping.</em></p>
-<ul>
-  <li>Tell Scribe your name in Settings, under You, and Today greets you: good morning, afternoon or evening, “Reading late?” after ten, “A new week” on Monday mornings, and “Welcome back” after a long break. Turn it off there too.</li>
-  <li>A brand new library gets a proper welcome on Today: a greeting, a field to paste your first link into, and outlines where your first books will go.</li>
-  <li>Save is one screen now: paste a link at the top, or drop files below. No more tabs.</li>
-  <li>Paste several links at once, one per line, or choose or drop many PDFs and EPUBs, or a whole folder of them. Each is saved in turn, with its progress shown.</li>
-  <li>Close the Save sheet and saving carries on. A “Saving 2 of 5” pill in the top bar shows how it’s going and opens the list again.</li>
-  <li>Anything that couldn’t be saved stays in the list with the reason, and a Retry button.</li>
-  <li>Drop a PDF, an EPUB, a folder or a web link anywhere on Scribe’s window to save it.</li>
-  <li>“Put on the stack” sends what you save straight to your stack instead of the backlog.</li>
-  <li>PDFs whose own title is a leftover from the software that made them, such as “Design” or “370848_Print.indd”, are named after the file instead, tidied up: no ISBN, no author list, and the colon put back.</li>
-  <li>Column width and line spacing are sliders now, so you can set them anywhere between narrow and wide, snug and airy.</li>
-  <li>A new Weight slider makes the text lighter or darker. It suits evening reading, and works with the Serif and Sans faces.</li>
-  <li>Justify gives paragraphs even edges, hyphenated like a printed page.</li>
-  <li>Reset, beside Typeface, puts everything back to Scribe’s own settings.</li>
-  <li>Weight and Justify are in Settings too, under Reading.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.2.0/Scribe-2.2.0.zip" length="9264009" type="application/octet-stream" sparkle:edSignature="EjRHnWD46a07X+bFc1mySjhGlY1cLKsDcBZKKMlSV8xudmjB3dTEhS6hOMR8WyaOxuPuyG8EgmBuqihiJvoxCg=="/>
         </item>
         <item>
             <title>2.0.0</title>
