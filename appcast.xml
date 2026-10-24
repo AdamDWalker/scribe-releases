@@ -3,6 +3,22 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.6.1</title>
+            <pubDate>Sat, 24 Oct 2026 20:13:36 +0000</pubDate>
+            <sparkle:version>173</sparkle:version>
+            <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>A better command palette, and two small fixes in the reader.</em></p>
+<ul>
+  <li>The command palette (⌘K) splits commands from pieces, finds up to 50 pieces as you type and says when there are more, and tells you when nothing matches.</li>
+  <li>The highlight colours stay inside the window when you select text near its right or bottom edge.</li>
+  <li>In PDFs, selecting text near the bottom of the window works properly again. The page counter no longer leaves an invisible strip there.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.6.1/Scribe-2.6.1.zip" length="9607038" type="application/octet-stream" sparkle:edSignature="r1gboGJ1P1L7/HXHlQJb40bt5pnVByz+JT42ZdwRtu11ZlZWOpsXwTXi0HXEdiDhKJvmjl+7Ijpw4EYmgwx2CQ=="/>
+        </item>
+        <item>
             <title>2.6.0</title>
             <pubDate>Sat, 24 Oct 2026 19:06:52 +0000</pubDate>
             <sparkle:version>169</sparkle:version>
@@ -49,27 +65,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.5.0/Scribe-2.5.0.zip" length="9558497" type="application/octet-stream" sparkle:edSignature="LqU9g0jNzO2lPFosC5fwvPXK2pYTnEsY4XMBar+/uEmv/kmKQSEr05c1d0Sj4vZBdVASktipexmjpxhf3mQzAQ=="/>
-        </item>
-        <item>
-            <title>2.4.0</title>
-            <pubDate>Fri, 23 Oct 2026 22:53:56 +0000</pubDate>
-            <sparkle:version>153</sparkle:version>
-            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>Every piece gets a colophon.</em></p>
-<ul>
-  <li>The colophon replaces Details: a panel on the reader’s right edge, opened with the new “i” beside Aa or with ⌘I.</li>
-  <li>It has the piece’s cover and title (click to rename), then the work itself: author, year, publisher, ISBN, language and length, edited in place.</li>
-  <li>Below that, the piece in your library: category, kind and tags, when you saved it, how far you are, and how many highlights and notes it has. Then its file or original link.</li>
-  <li>New books bring their publisher, ISBN and language with them. PDFs named with their ISBN keep it, and articles keep their language.</li>
-  <li>Highlighting the start of an opening paragraph no longer shrinks its large first letter, and the selection now shows over it.</li>
-  <li>Highlights that end at the end of a paragraph, or run across two, are now tinted all the way through.</li>
-  <li>Quotes in Marginalia and Highlights leave out footnote markers: “Text¹ blah” is kept as “Text blah”.</li>
-  <li>“Put on the stack” in Save now decides for articles too. They used to go on the stack whatever it said.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.4.0/Scribe-2.4.0.zip" length="9370978" type="application/octet-stream" sparkle:edSignature="Ago/hwJtnkUfxmGD/JzkRTl+YCEP2acz51J6mk/hTGA23Oy8F1cZjI5wY2qlYLOMA0YRVyw2+BnWk1C3XrPbAQ=="/>
         </item>
         <item>
             <title>2.0.0</title>
