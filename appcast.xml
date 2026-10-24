@@ -3,6 +3,27 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.6.0</title>
+            <pubDate>Sat, 24 Oct 2026 19:06:52 +0000</pubDate>
+            <sparkle:version>169</sparkle:version>
+            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Footnotes in the margin, embeds you can see, and pull quotes.</em></p>
+<ul>
+  <li>Footnotes in saved articles sit in the margin beside the line that cites them, and ink in word by word as you reach them. Click a number to find its note.</li>
+  <li>Prefer a clear margin? Settings ▸ Reading ▸ Footnotes in the margin, off, keeps them at the end of the piece and shows each one when you hover its number. On narrow windows they always work this way.</li>
+  <li>Embedded posts, videos and podcasts (X, Bluesky, YouTube, Vimeo, Spotify, Apple Podcasts, Substack and more) show as a quiet row that links to the original, instead of vanishing.</li>
+  <li>Pull quotes, the enlarged lines magazines set between paragraphs, now keep their emphasis in the reader. This works for Aeon, Substack, WordPress sites and others that mark them up.</li>
+  <li>Typed section breaks like * * * or ⁂ appear as the reader’s own section break.</li>
+  <li>An article’s subtitle, when the page has one, sits under its title in the reader.</li>
+  <li>The reader’s top bar no longer repeats the percentage read; the margin shows it.</li>
+  <li>All of this applies to articles saved from now on.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.6.0/Scribe-2.6.0.zip" length="9595304" type="application/octet-stream" sparkle:edSignature="s5NVEzOPmZEa45+kya2K+cJqorgUN9JTJZx108uL6i85CdpYD8VD5/1+gw1LMdenSXh9uCRRSU07kpmBSu4NAA=="/>
+        </item>
+        <item>
             <title>2.5.0</title>
             <pubDate>Sat, 24 Oct 2026 11:02:51 +0000</pubDate>
             <sparkle:version>162</sparkle:version>
@@ -49,23 +70,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.4.0/Scribe-2.4.0.zip" length="9370978" type="application/octet-stream" sparkle:edSignature="Ago/hwJtnkUfxmGD/JzkRTl+YCEP2acz51J6mk/hTGA23Oy8F1cZjI5wY2qlYLOMA0YRVyw2+BnWk1C3XrPbAQ=="/>
-        </item>
-        <item>
-            <title>2.3.0</title>
-            <pubDate>Fri, 23 Oct 2026 21:54:30 +0000</pubDate>
-            <sparkle:version>151</sparkle:version>
-            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>A welcome for a brand new library.</em></p>
-<ul>
-  <li>Opening Scribe with nothing saved now begins with a short welcome: books settle onto a shelf, then three quick steps. Tell Scribe your name, choose how the page looks, and save something to read.</li>
-  <li>Anything you save during the welcome carries on saving after it, with its progress in the top bar.</li>
-  <li>Settings ▸ Updates &amp; about has Show welcome, to see it again.</li>
-  <li>Today no longer shows its empty-library greeting for a moment while a full library loads.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.3.0/Scribe-2.3.0.zip" length="9337087" type="application/octet-stream" sparkle:edSignature="ed8aHjE9TvabhCH+cX6KGu7XSh2xOv/aX51UjG/A7GhuM4QeJ/ub88NICp4ywU5TrhuLbuPn+Gkzy39o5UXADg=="/>
         </item>
         <item>
             <title>2.0.0</title>
