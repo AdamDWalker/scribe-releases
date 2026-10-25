@@ -3,6 +3,28 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.7.1</title>
+            <pubDate>Sun, 25 Oct 2026 11:17:57 +0000</pubDate>
+            <sparkle:version>188</sparkle:version>
+            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>A new category editor: pick a colour off a paint card, a theme and layouts, and watch a shelf of books change as you do.</em></p>
+<ul>
+  <li>Editing or creating a category opens a wide editor: the options on the left, a live preview on the right.</li>
+  <li>Colour: pick one of thirteen colour families, then a shade from its paint card (each with its own name, like Snooker Baize), and set its strength. Mix your own… has sliders for colour, brightness and strength, plus the fourteen 2.0 palettes as old favourites.</li>
+  <li>Choose an accent (tonal, contrast, gold or cream) and how far books stray from the colour across the shelf: matching, sibling shades, or pale to deep.</li>
+  <li>Theme: every pattern, grouped as Classic, Maps, Botanical, Repeats, Scenes and Objects, drawn in your colour.</li>
+  <li>Layout: every title layout shown on a real book. Pick one, several to take turns, or any.</li>
+  <li>The preview shows one book, a shelf or a wall of them, each book its own roll of the settings. Try another title shows how long titles fit; Surprise me rolls a whole new look.</li>
+  <li>Right-click any cover or spine to Shuffle Cover (undoable) or Choose Cover… from six others.</li>
+  <li>Settings → Categories shows each category's look and opens the editor.</li>
+  <li>Existing categories keep exactly the covers they had.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.1/Scribe-2.7.1.zip" length="10357965" type="application/octet-stream" sparkle:edSignature="JBI8lxAlAIGvM97c7D69sRlYxLDNpESpOqbIjVoZbS5FWKwl/Kx5PivTInAq0Yh3/mEM778DgLZyCxe9LifyBg=="/>
+        </item>
+        <item>
             <title>2.7.0</title>
             <pubDate>Sun, 25 Oct 2026 10:03:16 +0000</pubDate>
             <sparkle:version>186</sparkle:version>
@@ -44,22 +66,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.6.2/Scribe-2.6.2.zip" length="9834917" type="application/octet-stream" sparkle:edSignature="96UUWeOuaKAT/eWIlyEnYXM3TEs5v0ewLpNPIiyB/fpg+OJrK2ty9q5iAgds4vZA6kBHKD/k60B+c7pY1GIDDg=="/>
-        </item>
-        <item>
-            <title>2.6.1</title>
-            <pubDate>Sat, 24 Oct 2026 20:13:36 +0000</pubDate>
-            <sparkle:version>173</sparkle:version>
-            <sparkle:shortVersionString>2.6.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>A better command palette, and two small fixes in the reader.</em></p>
-<ul>
-  <li>The command palette (⌘K) splits commands from pieces, finds up to 50 pieces as you type and says when there are more, and tells you when nothing matches.</li>
-  <li>The highlight colours stay inside the window when you select text near its right or bottom edge.</li>
-  <li>In PDFs, selecting text near the bottom of the window works properly again. The page counter no longer leaves an invisible strip there.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.6.1/Scribe-2.6.1.zip" length="9607038" type="application/octet-stream" sparkle:edSignature="r1gboGJ1P1L7/HXHlQJb40bt5pnVByz+JT42ZdwRtu11ZlZWOpsXwTXi0HXEdiDhKJvmjl+7Ijpw4EYmgwx2CQ=="/>
         </item>
         <item>
             <title>2.0.0</title>
