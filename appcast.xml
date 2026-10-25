@@ -3,6 +3,23 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.7.4</title>
+            <pubDate>Sun, 25 Oct 2026 20:23:31 +0000</pubDate>
+            <sparkle:version>200</sparkle:version>
+            <sparkle:shortVersionString>2.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Searching the Catalogue no longer freezes Scribe, and search stays quick as your library grows.</em></p>
+<ul>
+  <li>Fixed: typing a search in the Catalogue (“history of science”, say) could freeze Scribe with a spinning wheel until you force-quit it.</li>
+  <li>Catalogue searches run in the background and wait for a pause in your typing, so a large library stays responsive as you type.</li>
+  <li>Search forgets a piece’s old title once you rename it, and deleted pieces no longer linger in the index. Scribe rebuilds the search index once after updating.</li>
+  <li>Saving your place in a long book is instant, and Scribe keeps less in memory, so it stays quick as your library grows.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.4/Scribe-2.7.4.zip" length="10393082" type="application/octet-stream" sparkle:edSignature="4zSoq/phZPFDg0TcDCht5bhouLdq3p53T2Wk9pTXxOeKqHGibx8lRXQwwj1+cxy/GqNXMgSgi4ZLgfbL+zawAg=="/>
+        </item>
+        <item>
             <title>2.7.3</title>
             <pubDate>Sun, 25 Oct 2026 19:57:34 +0000</pubDate>
             <sparkle:version>196</sparkle:version>
@@ -38,28 +55,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.2/Scribe-2.7.2.zip" length="10388606" type="application/octet-stream" sparkle:edSignature="WqRDTNntlFNfhKd60V7bWuAieRsFg/0M5oc2hOXJaGhtdGCFOSpVeVodxkvr50A547Hlvt7DW+AwJSwNoT2ZBg=="/>
-        </item>
-        <item>
-            <title>2.7.1</title>
-            <pubDate>Sun, 25 Oct 2026 11:17:57 +0000</pubDate>
-            <sparkle:version>188</sparkle:version>
-            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>A new category editor: pick a colour off a paint card, a theme and layouts, and watch a shelf of books change as you do.</em></p>
-<ul>
-  <li>Editing or creating a category opens a wide editor: the options on the left, a live preview on the right.</li>
-  <li>Colour: pick one of thirteen colour families, then a shade from its paint card (each with its own name, like Snooker Baize), and set its strength. Mix your own… has sliders for colour, brightness and strength, plus the fourteen 2.0 palettes as old favourites.</li>
-  <li>Choose an accent (tonal, contrast, gold or cream) and how far books stray from the colour across the shelf: matching, sibling shades, or pale to deep.</li>
-  <li>Theme: every pattern, grouped as Classic, Maps, Botanical, Repeats, Scenes and Objects, drawn in your colour.</li>
-  <li>Layout: every title layout shown on a real book. Pick one, several to take turns, or any.</li>
-  <li>The preview shows one book, a shelf or a wall of them, each book its own roll of the settings. Try another title shows how long titles fit; Surprise me rolls a whole new look.</li>
-  <li>Right-click any cover or spine to Shuffle Cover (undoable) or Choose Cover… from six others.</li>
-  <li>Settings → Categories shows each category's look and opens the editor.</li>
-  <li>Existing categories keep exactly the covers they had.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.1/Scribe-2.7.1.zip" length="10357965" type="application/octet-stream" sparkle:edSignature="JBI8lxAlAIGvM97c7D69sRlYxLDNpESpOqbIjVoZbS5FWKwl/Kx5PivTInAq0Yh3/mEM778DgLZyCxe9LifyBg=="/>
         </item>
         <item>
             <title>2.0.0</title>
