@@ -3,6 +3,28 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.7.2</title>
+            <pubDate>Sun, 25 Oct 2026 15:32:36 +0000</pubDate>
+            <sparkle:version>194</sparkle:version>
+            <sparkle:shortVersionString>2.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Covers come out clearer: smooth by default, accents that always show, and a paper option that lets the art take over.</em></p>
+<ul>
+  <li>Covers are smooth now. The paper grain is a Texture slider in a category's Theme tab, off unless you want it.</li>
+  <li>Accents always stand out from their colour, so patterns, lines and shapes stay visible on small covers and on the shelf.</li>
+  <li>New in the Colour tab, Printed on: your colour (as before), Paper (a pale paper with the art and titles in your colour), or Both, with books taking turns.</li>
+  <li>Advanced → Title colour: automatic, light, dark, the accent, or a colour of your own, for titles, authors and spines.</li>
+  <li>Spines can be printed with the cover's art, like a paperback, or plain cloth, like a hardback. Choose in the Theme tab.</li>
+  <li>Picking a layout shows it on the preview straight away, so you can see each one as you add it.</li>
+  <li>Justified stack runs its art full-bleed behind the title instead of cropping it under a hard edge.</li>
+  <li>Titles are always plain text on top of the cover: the blurred patch behind titles on busy patterns is gone. Labels, panels and bands belong to the layouts that have them.</li>
+  <li>On a busy pattern (tartan, patchwork, marbling, cut-outs and the like), the Layout tab marks the layouts that give the title its own ground as Reads best.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.2/Scribe-2.7.2.zip" length="10388606" type="application/octet-stream" sparkle:edSignature="WqRDTNntlFNfhKd60V7bWuAieRsFg/0M5oc2hOXJaGhtdGCFOSpVeVodxkvr50A547Hlvt7DW+AwJSwNoT2ZBg=="/>
+        </item>
+        <item>
             <title>2.7.1</title>
             <pubDate>Sun, 25 Oct 2026 11:17:57 +0000</pubDate>
             <sparkle:version>188</sparkle:version>
@@ -45,27 +67,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.0/Scribe-2.7.0.zip" length="10137442" type="application/octet-stream" sparkle:edSignature="j6bsEPKANxjMoR01v2OFLAT67aDvKT24waTWZvLUyvGPLTImGS3SW3InljQdH9do1I5NSMl0pjQ1Fcan/TFhBQ=="/>
-        </item>
-        <item>
-            <title>2.6.2</title>
-            <pubDate>Sat, 24 Oct 2026 21:16:19 +0000</pubDate>
-            <sparkle:version>179</sparkle:version>
-            <sparkle:shortVersionString>2.6.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>New covers: twelve layouts and ten map themes, chosen per category.</em></p>
-<ul>
-  <li>Ten new cover themes drawn as maps, each piece growing its own terrain: survey sheet, tinted relief, night contours, lake, riso overprint, gridded map, orienteering, embossed cloth, sea chart and isobars. They take their colours from the category’s.</li>
-  <li>Edit Category now sets a category’s colours, theme and layouts separately, with every theme previewed in the colours you’ve picked.</li>
-  <li>Map themes carry a strip of their map down each spine.</li>
-  <li>Covers can now take twelve new layouts: tri-band, pasted label, spine-edge title, monogram, editorial, arched window, justified stack, split, colophon strip, Swiss index, running title and ex libris frame. Some print a piece’s details too: its year, its length and its category.</li>
-  <li>Choose a category’s layouts in Edit Category ▸ Layouts. Pick Any and each piece takes its own; neighbours on a shelf never share one.</li>
-  <li>Existing categories keep the covers they have until you change their layouts. New categories start on Any.</li>
-  <li>Spines pick up their cover’s layout: bands, a strip at the foot, a paper spine or a double rule.</li>
-  <li>Covers are kept between launches, so shelves and grids fill in sooner after opening Scribe.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.6.2/Scribe-2.6.2.zip" length="9834917" type="application/octet-stream" sparkle:edSignature="96UUWeOuaKAT/eWIlyEnYXM3TEs5v0ewLpNPIiyB/fpg+OJrK2ty9q5iAgds4vZA6kBHKD/k60B+c7pY1GIDDg=="/>
         </item>
         <item>
             <title>2.0.0</title>
