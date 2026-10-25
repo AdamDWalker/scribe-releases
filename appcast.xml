@@ -3,6 +3,21 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.7.3</title>
+            <pubDate>Sun, 25 Oct 2026 19:57:34 +0000</pubDate>
+            <sparkle:version>196</sparkle:version>
+            <sparkle:shortVersionString>2.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p><em>Sharper covers on external displays.</em></p>
+<ul>
+  <li>The book at the top of your stack on Today is sharp on non-Retina displays, including while it tilts.</li>
+  <li>The cover in the colophon, the category fan, Choose Cover… and the category list in Settings are drawn at their exact size, so they stay crisp on non-Retina displays too.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.3/Scribe-2.7.3.zip" length="10390175" type="application/octet-stream" sparkle:edSignature="AyrKDHaaNQmhYiUaduQ84w6ThTsuyPcuLKAUt2LWwedzZ9eHkAc6z0etg/IFLmnxLOfbwT3nCT6Uef0K31otDw=="/>
+        </item>
+        <item>
             <title>2.7.2</title>
             <pubDate>Sun, 25 Oct 2026 15:32:36 +0000</pubDate>
             <sparkle:version>194</sparkle:version>
@@ -45,28 +60,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.1/Scribe-2.7.1.zip" length="10357965" type="application/octet-stream" sparkle:edSignature="JBI8lxAlAIGvM97c7D69sRlYxLDNpESpOqbIjVoZbS5FWKwl/Kx5PivTInAq0Yh3/mEM778DgLZyCxe9LifyBg=="/>
-        </item>
-        <item>
-            <title>2.7.0</title>
-            <pubDate>Sun, 25 Oct 2026 10:03:16 +0000</pubDate>
-            <sparkle:version>186</sparkle:version>
-            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>Forty-one more cover themes: pressed flowers, tartans, star charts and printed objects that fill themselves in.</em></p>
-<ul>
-  <li>Nine botanical themes, each piece growing its own plants: pressed flowers, engraved plate, cyanotype, night umbels, Arts &amp; Crafts repeat, mid-century flat and stamped cloth, plus a seed packet and a herbarium sheet.</li>
-  <li>Seed packet: the title in the packet’s band, the flower and SOW month from when you saved the piece, READ from its length and BY from its author.</li>
-  <li>Herbarium sheet: a taped specimen with a label giving the title, collector (the author), category and the day you saved it.</li>
-  <li>Eight repeat themes, each piece with its own pattern: wave pattern, patchwork quilt, tartan, terrazzo, Bauhaus grid, op-art moiré, marbled boards and halftone.</li>
-  <li>Ten scene themes: linocut, ridgelines, strata section, star chart, transit diagram, figure-ground plan, architect’s elevation, paper cut-outs, moth plate and crease pattern.</li>
-  <li>Mineral specimen: a crystal cluster on felt with a museum card giving the title, author, category and the day you saved the piece.</li>
-  <li>Thirteen printed objects that fill themselves in from the piece: airmail envelope (postmarked the day you saved it), card ticket (the fare is the reading time), catalogue card, exercise book, typescript, crossword (the title crossed with the author’s surname), chess problem, patent drawing, matchbox, score (the melody spelled from the title), tarot card (the sun, moon or star when the title names one), pulp paperback and wood-type specimen.</li>
-  <li>Every new theme dresses its spines to match: a strip of its pattern, or the object’s own colours.</li>
-  <li>Titles set straight onto the busiest themes get a soft veil behind them, so they stay readable.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.0/Scribe-2.7.0.zip" length="10137442" type="application/octet-stream" sparkle:edSignature="j6bsEPKANxjMoR01v2OFLAT67aDvKT24waTWZvLUyvGPLTImGS3SW3InljQdH9do1I5NSMl0pjQ1Fcan/TFhBQ=="/>
         </item>
         <item>
             <title>2.0.0</title>
