@@ -3,6 +3,21 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.11.0</title>
+            <pubDate>Mon, 26 Oct 2026 14:52:38 +0000</pubDate>
+            <sparkle:version>269</sparkle:version>
+            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Updates now download by themselves and wait for a restart.</em></p>
+<ul>
+  <li>Scribe checks for a new version every time it opens, as well as once a day.</li>
+  <li>New versions download quietly in the background; a "Restart to update" button appears in the top bar when one is ready.</li>
+  <li>If you'd rather not restart yet, the update installs the next time you quit Scribe.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.0/Scribe-2.11.0.zip" length="10599396" type="application/octet-stream" sparkle:edSignature="N3rXMUUjXqIm0Exdx5qCUZQX6Oey362TrUqnmwGNiPKit8w1Yvs9nqD2FCCUkvUC/tqECirpFmFo9XwFNclVCA=="/>
+        </item>
+        <item>
             <title>2.10.0</title>
             <pubDate>Mon, 26 Oct 2026 13:16:32 +0000</pubDate>
             <sparkle:version>265</sparkle:version>
@@ -49,25 +64,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.9.0/Scribe-2.9.0.zip" length="10532505" type="application/octet-stream" sparkle:edSignature="sCdLIAMPtgB1qWY4bstUbuDupa1lWOGEoSLOTCEmZK7sjv54ZuGLIa/GvH/I4fVO3CS64VIPs9jhw5MEMnc6CA=="/>
-        </item>
-        <item>
-            <title>2.8.0</title>
-            <pubDate>Mon, 26 Oct 2026 11:48:24 +0000</pubDate>
-            <sparkle:version>228</sparkle:version>
-            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Give any piece a subtitle, find categories in alphabetical order, and books and PDFs follow "Open where I left off".</em></p>
-<ul>
-  <li>Fixed: deleting pieces you'd recently highlighted could leave Today's Marginalia empty, even with older highlights elsewhere.</li>
-  <li>Fixed: with "Open where I left off" turned off, books still opened at the chapter you were last reading.</li>
-  <li>Fixed: with it off, a PDF's page indicator and progress briefly showed your old page while the first page was on screen.</li>
-  <li>Categories now appear in alphabetical order on the Departments page, in Settings and in every category picker, so they're quicker to find and stay put when you add or rename one.</li>
-  <li>Category pickers in the Info panel and the import sheet list subcategories under their department, as the right-click menu already did.</li>
-  <li>The Info panel has a subtitle under the title. Add or edit one for any article, book or PDF, or clear it to remove it. An empty subtitle shows nowhere else.</li>
-  <li>A book's subtitle sits under its title on the opening page, in place of its first chapter's title.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.8.0/Scribe-2.8.0.zip" length="10469716" type="application/octet-stream" sparkle:edSignature="h8TNkT466PFlUny0B+GmsV7HxOp5+nsreJn88UGuPzBpeO0+AjsUQcXyY2sQqlYBig2ZbKDH0qzp0IJtGEPDDA=="/>
         </item>
     </channel>
 </rss>
