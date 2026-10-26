@@ -3,6 +3,27 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.10.0</title>
+            <pubDate>Mon, 26 Oct 2026 13:16:32 +0000</pubDate>
+            <sparkle:version>265</sparkle:version>
+            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Scribe is ready to share: new libraries start clean, and updates back up your library first.</em></p>
+<ul>
+  <li>New libraries start with no categories. The welcome now asks what you read about and offers a dozen broad departments to start with: Science, History, Business, Maths and more.</li>
+  <li>Settings › Categories can add any of those starter departments later.</li>
+  <li>Before an update changes the database, Scribe copies it to the library's backups folder.</li>
+  <li>Help › Report a Bug… starts an email with the details that help fix a problem.</li>
+  <li>The About window credits the typefaces and open-source packages Scribe is built with.</li>
+  <li>Scribe asks to be moved to Applications if it's opened from somewhere it can't update itself.</li>
+  <li>Scribe checks for updates daily instead of hourly.</li>
+  <li>Scribe keeps to one window: File › New Window no longer opens a second copy, and ⌘N is just Save.</li>
+  <li>A new install no longer opens with "What's new" straight after the welcome.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.10.0/Scribe-2.10.0.zip" length="10589956" type="application/octet-stream" sparkle:edSignature="iIDxO4iMO5kmxYWlx7rA1tknNSLNmnmCuNxAXJWCK5CLFd3MqlpZFFWD+8YFUTfTgvSjFsQhZQhRqnTOAs//AQ=="/>
+        </item>
+        <item>
             <title>2.9.0</title>
             <pubDate>Mon, 26 Oct 2026 12:47:19 +0000</pubDate>
             <sparkle:version>256</sparkle:version>
@@ -47,24 +68,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.8.0/Scribe-2.8.0.zip" length="10469716" type="application/octet-stream" sparkle:edSignature="h8TNkT466PFlUny0B+GmsV7HxOp5+nsreJn88UGuPzBpeO0+AjsUQcXyY2sQqlYBig2ZbKDH0qzp0IJtGEPDDA=="/>
-        </item>
-        <item>
-            <title>2.7.5</title>
-            <pubDate>Mon, 26 Oct 2026 09:01:19 +0000</pubDate>
-            <sparkle:version>216</sparkle:version>
-            <sparkle:shortVersionString>2.7.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Highlighting and notes work again, with a handful of smaller fixes around Today and the shelves.</em></p>
-<ul>
-  <li>Fixed: selecting text in an essay, article or book no longer failed to show the highlight and note controls.</li>
-  <li>Fixed: a highlight or note ending on the last character of an article, essay or chapter was saved but never shown.</li>
-  <li>The footer at the bottom of Today shows the version beside “Scribe”, for example “Scribe 2.7.4”.</li>
-  <li>The panel with a piece's details, opened with “i” or ⌘I, is now called Info instead of Colophon.</li>
-  <li>Fixed: hovering over a book on a category's shelf showed a title tip that could be cut off at the top or at either end of the shelf.</li>
-  <li>On a wide window, the three cards in From the backlog now sit together in the middle of the table instead of spreading out to its edges.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.5/Scribe-2.7.5.zip" length="10462245" type="application/octet-stream" sparkle:edSignature="YvLbOGa8pTyJF1cfrq05RcJUaqFq8XxwkWy0miqrdcMbOGfoA8+i7HERSrH9Md19Ad2tT9KlZeCJqE6tXZ6wAQ=="/>
         </item>
     </channel>
 </rss>
