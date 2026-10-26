@@ -3,6 +3,21 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.11.1</title>
+            <pubDate>Mon, 26 Oct 2026 15:22:12 +0000</pubDate>
+            <sparkle:version>273</sparkle:version>
+            <sparkle:shortVersionString>2.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>A tidy-up of Scribe's wording.</em></p>
+<ul>
+  <li>Em dashes in the app's text are now plain hyphens, including the bullets in What's New.</li>
+  <li>Smoothed the grammar of several messages, from the backlog's intro to Settings and the Save sheet.</li>
+  <li>Error messages for pieces that can't be opened now read like the rest of Scribe.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.1/Scribe-2.11.1.zip" length="10599360" type="application/octet-stream" sparkle:edSignature="G5averbFQhDoS7vADZDvHjQk/9GNVGAHfeP8ww06lwUDumZBuG6DUGXvupw3fETX05epLNGLtVSrFiK2zd1qAw=="/>
+        </item>
+        <item>
             <title>2.11.0</title>
             <pubDate>Mon, 26 Oct 2026 14:52:38 +0000</pubDate>
             <sparkle:version>269</sparkle:version>
@@ -37,33 +52,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.10.0/Scribe-2.10.0.zip" length="10589956" type="application/octet-stream" sparkle:edSignature="iIDxO4iMO5kmxYWlx7rA1tknNSLNmnmCuNxAXJWCK5CLFd3MqlpZFFWD+8YFUTfTgvSjFsQhZQhRqnTOAs//AQ=="/>
-        </item>
-        <item>
-            <title>2.9.0</title>
-            <pubDate>Mon, 26 Oct 2026 12:47:19 +0000</pubDate>
-            <sparkle:version>256</sparkle:version>
-            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>PDF highlights cover every page they span, footnotes write themselves out in the margin, Scribe has Go and Reader menus, the command palette finds your pieces again, and large libraries use less memory.</em></p>
-<ul>
-  <li>Fixed: highlighting a passage that runs onto the next page of a PDF only marked the first page. The highlight now covers every page it spans, stays one highlight with one note, and is removed in full when you delete it.</li>
-  <li>Jumping to a PDF highlight now brings the start of the highlight into view, not the text just below it.</li>
-  <li>Fixed: if permanently deleting an item from the bin failed part-way, the library could keep an entry whose files were gone. Scribe now finishes or undoes an interrupted deletion the next time it opens.</li>
-  <li>Covers are kept in memory within a fixed budget, so browsing a large library for a long time no longer keeps growing Scribe's memory use.</li>
-  <li>Publishers' cover images are loaded at the size they're shown, in the background, rather than at full size.</li>
-  <li>The cover cache on disk is trimmed as it grows during a session, not only when Scribe opens.</li>
-  <li>Footnotes in the margin now write out one word at a time, in reading order, instead of a line at once.</li>
-  <li>A faint line joins each footnote's number in the text to its note in the margin.</li>
-  <li>Pointing at a footnote number or its note lights up the other, along with the sentence the number belongs to.</li>
-  <li>Footnote numbers and margin notes can be reached with Tab; Return on a note takes you back to its number.</li>
-  <li>New Go menu: Today, Categories, Catalogue and Highlights (⌘1–⌘4), Back (⌘[) and the command palette (⌘K).</li>
-  <li>New Reader menu for the open piece: Info, Reading Format, text size, previous and next chapter in books, the stack, favourites, Open Original and Close Reader.</li>
-  <li>File ▸ Save… (⌘N) and Edit ▸ Search Catalogue / Find in Page (⌘F) are in the menu bar too, and work while reading.</li>
-  <li>Fixed: searching in the command palette (⌘K) listed commands under the names of other rows instead of the pieces that matched.</li>
-  <li>The palette's search field is ready to type into as soon as it opens.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.9.0/Scribe-2.9.0.zip" length="10532505" type="application/octet-stream" sparkle:edSignature="sCdLIAMPtgB1qWY4bstUbuDupa1lWOGEoSLOTCEmZK7sjv54ZuGLIa/GvH/I4fVO3CS64VIPs9jhw5MEMnc6CA=="/>
         </item>
     </channel>
 </rss>
