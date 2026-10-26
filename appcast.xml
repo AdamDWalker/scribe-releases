@@ -3,6 +3,19 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.11.4</title>
+            <pubDate>Mon, 26 Oct 2026 17:37:27 +0000</pubDate>
+            <sparkle:version>307</sparkle:version>
+            <sparkle:shortVersionString>2.11.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Closing Find in a PDF no longer opens the highlight colours.</em></p>
+<ul>
+  <li>Fixed: clicking Find's close button or arrows in a PDF opened the highlight colours, as if you'd selected the match yourself.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.4/Scribe-2.11.4.zip" length="10651677" type="application/octet-stream" sparkle:edSignature="D2DZZj5ieJa2/0euc3bF4X7LgOWqEf02UgeQe13RJyibxtbmfy7YBqoLtL5qG4lFUW2DPf20ysFj7WWLZ3UODA=="/>
+        </item>
+        <item>
             <title>2.11.3</title>
             <pubDate>Mon, 26 Oct 2026 17:08:55 +0000</pubDate>
             <sparkle:version>303</sparkle:version>
@@ -42,21 +55,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.2/Scribe-2.11.2.zip" length="10644732" type="application/octet-stream" sparkle:edSignature="apl7FzMAOTZv/+kpN6XJQOTcxNlaZ5jA2G+K4p3kklLV5y/brDODRsqsLDVAe8Y426O+Clqg6B2FNU0xDxwEDw=="/>
-        </item>
-        <item>
-            <title>2.11.1</title>
-            <pubDate>Mon, 26 Oct 2026 15:22:12 +0000</pubDate>
-            <sparkle:version>273</sparkle:version>
-            <sparkle:shortVersionString>2.11.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>A tidy-up of Scribe's wording.</em></p>
-<ul>
-  <li>Em dashes in the app's text are now plain hyphens, including the bullets in What's New.</li>
-  <li>Smoothed the grammar of several messages, from the backlog's intro to Settings and the Save sheet.</li>
-  <li>Error messages for pieces that can't be opened now read like the rest of Scribe.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.1/Scribe-2.11.1.zip" length="10599360" type="application/octet-stream" sparkle:edSignature="G5averbFQhDoS7vADZDvHjQk/9GNVGAHfeP8ww06lwUDumZBuG6DUGXvupw3fETX05epLNGLtVSrFiK2zd1qAw=="/>
         </item>
     </channel>
 </rss>
