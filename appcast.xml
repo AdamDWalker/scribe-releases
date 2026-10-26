@@ -3,6 +3,33 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.9.0</title>
+            <pubDate>Mon, 26 Oct 2026 12:47:19 +0000</pubDate>
+            <sparkle:version>256</sparkle:version>
+            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>PDF highlights cover every page they span, footnotes write themselves out in the margin, Scribe has Go and Reader menus, the command palette finds your pieces again, and large libraries use less memory.</em></p>
+<ul>
+  <li>Fixed: highlighting a passage that runs onto the next page of a PDF only marked the first page. The highlight now covers every page it spans, stays one highlight with one note, and is removed in full when you delete it.</li>
+  <li>Jumping to a PDF highlight now brings the start of the highlight into view, not the text just below it.</li>
+  <li>Fixed: if permanently deleting an item from the bin failed part-way, the library could keep an entry whose files were gone. Scribe now finishes or undoes an interrupted deletion the next time it opens.</li>
+  <li>Covers are kept in memory within a fixed budget, so browsing a large library for a long time no longer keeps growing Scribe's memory use.</li>
+  <li>Publishers' cover images are loaded at the size they're shown, in the background, rather than at full size.</li>
+  <li>The cover cache on disk is trimmed as it grows during a session, not only when Scribe opens.</li>
+  <li>Footnotes in the margin now write out one word at a time, in reading order, instead of a line at once.</li>
+  <li>A faint line joins each footnote's number in the text to its note in the margin.</li>
+  <li>Pointing at a footnote number or its note lights up the other, along with the sentence the number belongs to.</li>
+  <li>Footnote numbers and margin notes can be reached with Tab; Return on a note takes you back to its number.</li>
+  <li>New Go menu: Today, Categories, Catalogue and Highlights (⌘1–⌘4), Back (⌘[) and the command palette (⌘K).</li>
+  <li>New Reader menu for the open piece: Info, Reading Format, text size, previous and next chapter in books, the stack, favourites, Open Original and Close Reader.</li>
+  <li>File ▸ Save… (⌘N) and Edit ▸ Search Catalogue / Find in Page (⌘F) are in the menu bar too, and work while reading.</li>
+  <li>Fixed: searching in the command palette (⌘K) listed commands under the names of other rows instead of the pieces that matched.</li>
+  <li>The palette's search field is ready to type into as soon as it opens.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.9.0/Scribe-2.9.0.zip" length="10532505" type="application/octet-stream" sparkle:edSignature="sCdLIAMPtgB1qWY4bstUbuDupa1lWOGEoSLOTCEmZK7sjv54ZuGLIa/GvH/I4fVO3CS64VIPs9jhw5MEMnc6CA=="/>
+        </item>
+        <item>
             <title>2.8.0</title>
             <pubDate>Mon, 26 Oct 2026 11:48:24 +0000</pubDate>
             <sparkle:version>228</sparkle:version>
@@ -38,23 +65,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.5/Scribe-2.7.5.zip" length="10462245" type="application/octet-stream" sparkle:edSignature="YvLbOGa8pTyJF1cfrq05RcJUaqFq8XxwkWy0miqrdcMbOGfoA8+i7HERSrH9Md19Ad2tT9KlZeCJqE6tXZ6wAQ=="/>
-        </item>
-        <item>
-            <title>2.7.4</title>
-            <pubDate>Sun, 25 Oct 2026 20:23:31 +0000</pubDate>
-            <sparkle:version>200</sparkle:version>
-            <sparkle:shortVersionString>2.7.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>Searching the Catalogue no longer freezes Scribe, and search stays quick as your library grows.</em></p>
-<ul>
-  <li>Fixed: typing a search in the Catalogue (“history of science”, say) could freeze Scribe with a spinning wheel until you force-quit it.</li>
-  <li>Catalogue searches run in the background and wait for a pause in your typing, so a large library stays responsive as you type.</li>
-  <li>Search forgets a piece’s old title once you rename it, and deleted pieces no longer linger in the index. Scribe rebuilds the search index once after updating.</li>
-  <li>Saving your place in a long book is instant, and Scribe keeps less in memory, so it stays quick as your library grows.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.4/Scribe-2.7.4.zip" length="10393082" type="application/octet-stream" sparkle:edSignature="4zSoq/phZPFDg0TcDCht5bhouLdq3p53T2Wk9pTXxOeKqHGibx8lRXQwwj1+cxy/GqNXMgSgi4ZLgfbL+zawAg=="/>
         </item>
     </channel>
 </rss>
