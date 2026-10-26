@@ -3,6 +3,26 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.11.2</title>
+            <pubDate>Mon, 26 Oct 2026 16:03:24 +0000</pubDate>
+            <sparkle:version>278</sparkle:version>
+            <sparkle:shortVersionString>2.11.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Saved articles keep their images and lose the clutter, and X articles save properly.</em></p>
+<ul>
+  <li>Fixed: some articles showed an empty image box where a picture should be. Scribe now saves the full-size image from responsive and lazy-loading pages, and no longer falls back to the web for it.</li>
+  <li>Fixed: images on old pages linked over plain http, and pictures saved from the Wayback Machine, now save properly.</li>
+  <li>Fixed: images that sit in their own blocks between paragraphs, as on BBC News, are no longer dropped, and a piece's lead photo is kept.</li>
+  <li>Fixed: X articles save from the article's own link as well as the post sharing it, with the right title, author, cover and images.</li>
+  <li>"Listen to this article" players, subscribe and share prompts, comment counts, promos and footers no longer end up in the reader.</li>
+  <li>Older pages in other text encodings now save instead of failing, and bylines lose their stray "by" and commas.</li>
+  <li>A site that turns Scribe away now says so, instead of suggesting you check the link.</li>
+  <li>Articles you've already saved have their images repaired once, the first time you open this version.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.2/Scribe-2.11.2.zip" length="10644732" type="application/octet-stream" sparkle:edSignature="apl7FzMAOTZv/+kpN6XJQOTcxNlaZ5jA2G+K4p3kklLV5y/brDODRsqsLDVAe8Y426O+Clqg6B2FNU0xDxwEDw=="/>
+        </item>
+        <item>
             <title>2.11.1</title>
             <pubDate>Mon, 26 Oct 2026 15:22:12 +0000</pubDate>
             <sparkle:version>273</sparkle:version>
@@ -31,27 +51,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.0/Scribe-2.11.0.zip" length="10599396" type="application/octet-stream" sparkle:edSignature="N3rXMUUjXqIm0Exdx5qCUZQX6Oey362TrUqnmwGNiPKit8w1Yvs9nqD2FCCUkvUC/tqECirpFmFo9XwFNclVCA=="/>
-        </item>
-        <item>
-            <title>2.10.0</title>
-            <pubDate>Mon, 26 Oct 2026 13:16:32 +0000</pubDate>
-            <sparkle:version>265</sparkle:version>
-            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Scribe is ready to share: new libraries start clean, and updates back up your library first.</em></p>
-<ul>
-  <li>New libraries start with no categories. The welcome now asks what you read about and offers a dozen broad departments to start with: Science, History, Business, Maths and more.</li>
-  <li>Settings › Categories can add any of those starter departments later.</li>
-  <li>Before an update changes the database, Scribe copies it to the library's backups folder.</li>
-  <li>Help › Report a Bug… starts an email with the details that help fix a problem.</li>
-  <li>The About window credits the typefaces and open-source packages Scribe is built with.</li>
-  <li>Scribe asks to be moved to Applications if it's opened from somewhere it can't update itself.</li>
-  <li>Scribe checks for updates daily instead of hourly.</li>
-  <li>Scribe keeps to one window: File › New Window no longer opens a second copy, and ⌘N is just Save.</li>
-  <li>A new install no longer opens with "What's new" straight after the welcome.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.10.0/Scribe-2.10.0.zip" length="10589956" type="application/octet-stream" sparkle:edSignature="iIDxO4iMO5kmxYWlx7rA1tknNSLNmnmCuNxAXJWCK5CLFd3MqlpZFFWD+8YFUTfTgvSjFsQhZQhRqnTOAs//AQ=="/>
         </item>
     </channel>
 </rss>
