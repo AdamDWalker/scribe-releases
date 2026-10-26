@@ -3,6 +3,25 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.8.0</title>
+            <pubDate>Mon, 26 Oct 2026 11:48:24 +0000</pubDate>
+            <sparkle:version>228</sparkle:version>
+            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Give any piece a subtitle, find categories in alphabetical order, and books and PDFs follow "Open where I left off".</em></p>
+<ul>
+  <li>Fixed: deleting pieces you'd recently highlighted could leave Today's Marginalia empty, even with older highlights elsewhere.</li>
+  <li>Fixed: with "Open where I left off" turned off, books still opened at the chapter you were last reading.</li>
+  <li>Fixed: with it off, a PDF's page indicator and progress briefly showed your old page while the first page was on screen.</li>
+  <li>Categories now appear in alphabetical order on the Departments page, in Settings and in every category picker, so they're quicker to find and stay put when you add or rename one.</li>
+  <li>Category pickers in the Info panel and the import sheet list subcategories under their department, as the right-click menu already did.</li>
+  <li>The Info panel has a subtitle under the title. Add or edit one for any article, book or PDF, or clear it to remove it. An empty subtitle shows nowhere else.</li>
+  <li>A book's subtitle sits under its title on the opening page, in place of its first chapter's title.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.8.0/Scribe-2.8.0.zip" length="10469716" type="application/octet-stream" sparkle:edSignature="h8TNkT466PFlUny0B+GmsV7HxOp5+nsreJn88UGuPzBpeO0+AjsUQcXyY2sQqlYBig2ZbKDH0qzp0IJtGEPDDA=="/>
+        </item>
+        <item>
             <title>2.7.5</title>
             <pubDate>Mon, 26 Oct 2026 09:01:19 +0000</pubDate>
             <sparkle:version>216</sparkle:version>
@@ -36,21 +55,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.4/Scribe-2.7.4.zip" length="10393082" type="application/octet-stream" sparkle:edSignature="4zSoq/phZPFDg0TcDCht5bhouLdq3p53T2Wk9pTXxOeKqHGibx8lRXQwwj1+cxy/GqNXMgSgi4ZLgfbL+zawAg=="/>
-        </item>
-        <item>
-            <title>2.7.3</title>
-            <pubDate>Sun, 25 Oct 2026 19:57:34 +0000</pubDate>
-            <sparkle:version>196</sparkle:version>
-            <sparkle:shortVersionString>2.7.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p><em>Sharper covers on external displays.</em></p>
-<ul>
-  <li>The book at the top of your stack on Today is sharp on non-Retina displays, including while it tilts.</li>
-  <li>The cover in the colophon, the category fan, Choose Cover… and the category list in Settings are drawn at their exact size, so they stay crisp on non-Retina displays too.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.7.3/Scribe-2.7.3.zip" length="10390175" type="application/octet-stream" sparkle:edSignature="AyrKDHaaNQmhYiUaduQ84w6ThTsuyPcuLKAUt2LWwedzZ9eHkAc6z0etg/IFLmnxLOfbwT3nCT6Uef0K31otDw=="/>
         </item>
     </channel>
 </rss>
