@@ -3,6 +3,27 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.11.3</title>
+            <pubDate>Mon, 26 Oct 2026 17:08:55 +0000</pubDate>
+            <sparkle:version>303</sparkle:version>
+            <sparkle:shortVersionString>2.11.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Drops all go through the Save sheet, failed imports clean up after themselves, finding text in long PDFs stays smooth, and the updater picks up Sparkle's security fixes.</em></p>
+<ul>
+  <li>Removed an old, unused way of searching the library; searching works as before.</li>
+  <li>What’s New shows the latest couple of releases instead of Scribe’s whole history; “All release notes” in the same card shows every release.</li>
+  <li>After skipping several updates, What’s New shows the newest two rather than every version since.</li>
+  <li>Clicking a link in an essay or book now only opens web and email links. Links to files on your Mac or to other apps' custom schemes are ignored instead of being handed to macOS.</li>
+  <li>Fixed: adding a file that isn't a readable PDF left a hidden copy of it in Scribe's library folder. A failed PDF or web page import now removes everything it saved.</li>
+  <li>Scribe's built-in updater now uses Sparkle 2.9.6, which fixes two security issues in how updates are installed.</li>
+  <li>Dropping files or links onto Today, a department or the Catalogue now opens the Save sheet with its progress, retry and category choices, the same as dropping anywhere else in the window. Before, those pages saved drops silently in the background, with no word if one failed.</li>
+  <li>Find in a PDF now searches once you pause typing, in the background, and shows matches as they're found. Typing a short word in a long PDF no longer freezes the reader.</li>
+  <li>Very common words stop at 1,000 matches, shown as "1 of 1000+".</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.3/Scribe-2.11.3.zip" length="10650248" type="application/octet-stream" sparkle:edSignature="SW6WnCpcv/ReiVHyliIPHfKpjKn0rTzQUEM5kjzo00TVZdM0EWwBmMo7iPDtBLpVep7lFeIj6exe9grwtSAuCw=="/>
+        </item>
+        <item>
             <title>2.11.2</title>
             <pubDate>Mon, 26 Oct 2026 16:03:24 +0000</pubDate>
             <sparkle:version>278</sparkle:version>
@@ -36,21 +57,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.1/Scribe-2.11.1.zip" length="10599360" type="application/octet-stream" sparkle:edSignature="G5averbFQhDoS7vADZDvHjQk/9GNVGAHfeP8ww06lwUDumZBuG6DUGXvupw3fETX05epLNGLtVSrFiK2zd1qAw=="/>
-        </item>
-        <item>
-            <title>2.11.0</title>
-            <pubDate>Mon, 26 Oct 2026 14:52:38 +0000</pubDate>
-            <sparkle:version>269</sparkle:version>
-            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Updates now download by themselves and wait for a restart.</em></p>
-<ul>
-  <li>Scribe checks for a new version every time it opens, as well as once a day.</li>
-  <li>New versions download quietly in the background; a "Restart to update" button appears in the top bar when one is ready.</li>
-  <li>If you'd rather not restart yet, the update installs the next time you quit Scribe.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.0/Scribe-2.11.0.zip" length="10599396" type="application/octet-stream" sparkle:edSignature="N3rXMUUjXqIm0Exdx5qCUZQX6Oey362TrUqnmwGNiPKit8w1Yvs9nqD2FCCUkvUC/tqECirpFmFo9XwFNclVCA=="/>
         </item>
     </channel>
 </rss>
