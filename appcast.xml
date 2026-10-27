@@ -3,6 +3,25 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.13.0</title>
+            <pubDate>Tue, 27 Oct 2026 16:53:56 +0000</pubDate>
+            <sparkle:version>352</sparkle:version>
+            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Today leads with what you're reading, the Catalogue gains shelves, kinds include Textbook and your own, and the reader's controls live in Aa and Info.</em></p>
+<ul>
+  <li>New: Textbook is one of the kinds a piece can be.</li>
+  <li>New: Settings ▸ Library ▸ Kinds lets you add kinds of your own, such as Lecture notes or Zine. They appear in a piece's details and in the Catalogue's filters; renaming one renames it on its pieces, and deleting one returns its pieces to Article, PDF or EPUB.</li>
+  <li>Today's big headline is now the piece you're reading (the last one you opened that's begun and not finished), marked "Continue reading". With nothing in progress it shows the top of your stack, as before.</li>
+  <li>New: switch the Catalogue between List and Shelf. Shelf sets every piece out as spines, one shelf per group in the arrangement you've chosen (A to Z, by length, newest), with the same search, filters and right-click actions. List stays the default.</li>
+  <li>The reader's "…" menu is gone. Its actions (the stack, favourite, rename, export highlights, the cover and delete) are now in Info, under Actions, beside the details they belong with.</li>
+  <li>A PDF's notes column is switched on and off in Aa, under Notes (⇧⌘A still works).</li>
+  <li>With keyboard navigation turned on in System Settings, the focused button, tab, filter or Aa control now shows a clear outline in Scribe's accent colour, distinct from hover and selection.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.13.0/Scribe-2.13.0.zip" length="10841313" type="application/octet-stream" sparkle:edSignature="+ph98awZOyLTRIf6M43/oOliWYmK66N8ij7OErOOl9bX1t00z60/Rl35TJep+P7m+rfEBxbYE12kaN7Ooub2DQ=="/>
+        </item>
+        <item>
             <title>2.12.2</title>
             <pubDate>Tue, 27 Oct 2026 16:25:27 +0000</pubDate>
             <sparkle:version>338</sparkle:version>
@@ -44,25 +63,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.1/Scribe-2.12.1.zip" length="10735473" type="application/octet-stream" sparkle:edSignature="eS/1MG4eVDWSOpKIVZnYT2gB4eucMkbCoKlXFQ4YP1YLZXWSoYF8JRuxcdEeCnbZmXNqYTKauL6yvRyVHmTuAw=="/>
-        </item>
-        <item>
-            <title>2.12.0</title>
-            <pubDate>Tue, 27 Oct 2026 15:25:02 +0000</pubDate>
-            <sparkle:version>317</sparkle:version>
-            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Scribe finds pieces saved twice and keeps one copy, and a PDF's find bar and notes stay out of each other's way.</em></p>
-<ul>
-  <li>New: Settings ▸ Library ▸ Saved twice lists pieces in your library more than once. Keep one copy of each; the others go to the bin, and the one you keep takes their place on the stack, their tags and their category.</li>
-  <li>Fixed: saving a PDF that was already in the library kept a second copy, even with Duplicates set to Skip.</li>
-  <li>Fixed: a book or link saved twice at once, such as two copies in one folder, could get past the duplicate check.</li>
-  <li>Duplicates are recognised more widely: a book with the same ISBN, or the same title with its author written differently, and a link with tracking parameters or "www." added. Two editions of a book with different ISBNs stay apart.</li>
-  <li>Fixed: with a PDF's notes open, the find bar sat off-centre and partly over the notes.</li>
-  <li>Fixed: selecting text near the top of the page while finding could put the highlight picker on top of the find bar.</li>
-  <li>The notes beside a PDF mark the highlight you jumped to, and keep it in view, until you pick another.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.0/Scribe-2.12.0.zip" length="10707114" type="application/octet-stream" sparkle:edSignature="ieMYI9zz/+dYLuLqKSE2m2ccA8+pR2V5pZKZWz0qgtACvXTWtBZ0rFag45Xv18MvhNJbXQRDEzkfqcPEkEsWAw=="/>
         </item>
     </channel>
 </rss>
