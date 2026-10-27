@@ -3,6 +3,29 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.12.1</title>
+            <pubDate>Tue, 27 Oct 2026 15:46:06 +0000</pubDate>
+            <sparkle:version>328</sparkle:version>
+            <sparkle:shortVersionString>2.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Scribe opens and saves without freezing, holds downloads to their limits, and never replaces a library that only failed to open.</em></p>
+<ul>
+  <li>The weekly library backup is made in the background, so a launch when one is due no longer pauses before the window responds.</li>
+  <li>Emptying expired pieces from the bin happens in the background, a few at a time, after the window opens.</li>
+  <li>A backup that fails part-way no longer replaces the last good one.</li>
+  <li>Fixed: if your library couldn't be opened for a passing reason, such as another copy of Scribe holding it, Scribe set it aside and started an empty one. Now it leaves it untouched, says so, and tries again when you ask; anything added meanwhile isn't kept.</li>
+  <li>A damaged library is set aside together with its working files, never over an earlier copy, and put back if starting a fresh one fails.</li>
+  <li>While a library is set aside, Scribe no longer runs its weekly backup or empties the bin, so neither can disturb the preserved copy.</li>
+  <li>A page larger than 30 MB stops downloading as soon as it passes the limit, and says "That page is too large to save" instead of a network error.</li>
+  <li>An article saves at most 300 images, 150 MB in all; any past that keep their web address.</li>
+  <li>A book is held to its size limit by what it actually unpacks, not what its archive claims, and a chapter too large to read is skipped.</li>
+  <li>Saving a page reads and tidies it in the background, so Scribe stays responsive while a long article is saved.</li>
+  <li>Cancelling a save stops it sooner.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.1/Scribe-2.12.1.zip" length="10735473" type="application/octet-stream" sparkle:edSignature="eS/1MG4eVDWSOpKIVZnYT2gB4eucMkbCoKlXFQ4YP1YLZXWSoYF8JRuxcdEeCnbZmXNqYTKauL6yvRyVHmTuAw=="/>
+        </item>
+        <item>
             <title>2.12.0</title>
             <pubDate>Tue, 27 Oct 2026 15:25:02 +0000</pubDate>
             <sparkle:version>317</sparkle:version>
@@ -33,27 +56,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.4/Scribe-2.11.4.zip" length="10651677" type="application/octet-stream" sparkle:edSignature="D2DZZj5ieJa2/0euc3bF4X7LgOWqEf02UgeQe13RJyibxtbmfy7YBqoLtL5qG4lFUW2DPf20ysFj7WWLZ3UODA=="/>
-        </item>
-        <item>
-            <title>2.11.3</title>
-            <pubDate>Mon, 26 Oct 2026 17:08:55 +0000</pubDate>
-            <sparkle:version>303</sparkle:version>
-            <sparkle:shortVersionString>2.11.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Drops all go through the Save sheet, failed imports clean up after themselves, finding text in long PDFs stays smooth, and the updater picks up Sparkle's security fixes.</em></p>
-<ul>
-  <li>Removed an old, unused way of searching the library; searching works as before.</li>
-  <li>What’s New shows the latest couple of releases instead of Scribe’s whole history; “All release notes” in the same card shows every release.</li>
-  <li>After skipping several updates, What’s New shows the newest two rather than every version since.</li>
-  <li>Clicking a link in an essay or book now only opens web and email links. Links to files on your Mac or to other apps' custom schemes are ignored instead of being handed to macOS.</li>
-  <li>Fixed: adding a file that isn't a readable PDF left a hidden copy of it in Scribe's library folder. A failed PDF or web page import now removes everything it saved.</li>
-  <li>Scribe's built-in updater now uses Sparkle 2.9.6, which fixes two security issues in how updates are installed.</li>
-  <li>Dropping files or links onto Today, a department or the Catalogue now opens the Save sheet with its progress, retry and category choices, the same as dropping anywhere else in the window. Before, those pages saved drops silently in the background, with no word if one failed.</li>
-  <li>Find in a PDF now searches once you pause typing, in the background, and shows matches as they're found. Typing a short word in a long PDF no longer freezes the reader.</li>
-  <li>Very common words stop at 1,000 matches, shown as "1 of 1000+".</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.3/Scribe-2.11.3.zip" length="10650248" type="application/octet-stream" sparkle:edSignature="SW6WnCpcv/ReiVHyliIPHfKpjKn0rTzQUEM5kjzo00TVZdM0EWwBmMo7iPDtBLpVep7lFeIj6exe9grwtSAuCw=="/>
         </item>
     </channel>
 </rss>
