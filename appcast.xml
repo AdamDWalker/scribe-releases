@@ -3,6 +3,26 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.12.2</title>
+            <pubDate>Tue, 27 Oct 2026 16:25:27 +0000</pubDate>
+            <sparkle:version>338</sparkle:version>
+            <sparkle:shortVersionString>2.12.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Reading stays offline and private, each book keeps to its own files, and Scribe tells you when something couldn't be saved.</em></p>
+<ul>
+  <li>Reading is fully offline and private: an article image that didn't save, or a web image, font or stylesheet a book asks for, is no longer fetched when you open it. Scribe keeps trying to save missing images in the background.</li>
+  <li>Images that couldn't be saved are hidden rather than shown broken.</li>
+  <li>An open book can read only its own files: not the other books in your library, and not the web.</li>
+  <li>The reader keeps no cookies or website data between pieces.</li>
+  <li>Problems with saving, the library and housekeeping are written to the Mac's system log, so they can be looked into later without exposing what you read: links, titles, notes and error details are kept private.</li>
+  <li>If a highlight, note, tag, category, stack change or other edit can't be saved, a bar under the top bar says so, instead of it quietly not happening.</li>
+  <li>A note that can't be saved keeps its editor open with what you wrote.</li>
+  <li>Exporting highlights to a place that can't be written to now says so.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.2/Scribe-2.12.2.zip" length="10780702" type="application/octet-stream" sparkle:edSignature="qcnnE6Q+JfzIeW8LpVTmWpnjD2GvRwAMn95/OiKjOH4dUDeQK3JNAvZcrtQiPDkMV7eKKLtmMPNLgMQ4IiSmAQ=="/>
+        </item>
+        <item>
             <title>2.12.1</title>
             <pubDate>Tue, 27 Oct 2026 15:46:06 +0000</pubDate>
             <sparkle:version>328</sparkle:version>
@@ -43,19 +63,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.0/Scribe-2.12.0.zip" length="10707114" type="application/octet-stream" sparkle:edSignature="ieMYI9zz/+dYLuLqKSE2m2ccA8+pR2V5pZKZWz0qgtACvXTWtBZ0rFag45Xv18MvhNJbXQRDEzkfqcPEkEsWAw=="/>
-        </item>
-        <item>
-            <title>2.11.4</title>
-            <pubDate>Mon, 26 Oct 2026 17:37:27 +0000</pubDate>
-            <sparkle:version>307</sparkle:version>
-            <sparkle:shortVersionString>2.11.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Closing Find in a PDF no longer opens the highlight colours.</em></p>
-<ul>
-  <li>Fixed: clicking Find's close button or arrows in a PDF opened the highlight colours, as if you'd selected the match yourself.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.11.4/Scribe-2.11.4.zip" length="10651677" type="application/octet-stream" sparkle:edSignature="D2DZZj5ieJa2/0euc3bF4X7LgOWqEf02UgeQe13RJyibxtbmfy7YBqoLtL5qG4lFUW2DPf20ysFj7WWLZ3UODA=="/>
         </item>
     </channel>
 </rss>
