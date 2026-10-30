@@ -3,6 +3,20 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.13.1</title>
+            <pubDate>Fri, 30 Oct 2026 19:07:02 +0000</pubDate>
+            <sparkle:version>356</sparkle:version>
+            <sparkle:shortVersionString>2.13.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>Shelves no longer leave their first book standing up.</em></p>
+<ul>
+  <li>Fixed: after clicking a shelf, its first book stayed lifted with its title showing, even with the pointer elsewhere. The keyboard highlight now shows only once you use the arrow keys or Tab to the shelf.</li>
+  <li>A long shelf (in the Catalogue's shelf view or a category) keeps one height as you scroll it, sized for its tallest book, instead of depending on which books are on screen.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.13.1/Scribe-2.13.1.zip" length="10843648" type="application/octet-stream" sparkle:edSignature="jnFgSi0W5L+zTANCGQ4XycUoznOeZeGoSeqgVp0PXRgwQLmrl8iaLQsMBB4T5BePTbjMD5gqWA4rzZ2jI5hGAw=="/>
+        </item>
+        <item>
             <title>2.13.0</title>
             <pubDate>Tue, 27 Oct 2026 16:53:56 +0000</pubDate>
             <sparkle:version>352</sparkle:version>
@@ -40,29 +54,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.2/Scribe-2.12.2.zip" length="10780702" type="application/octet-stream" sparkle:edSignature="qcnnE6Q+JfzIeW8LpVTmWpnjD2GvRwAMn95/OiKjOH4dUDeQK3JNAvZcrtQiPDkMV7eKKLtmMPNLgMQ4IiSmAQ=="/>
-        </item>
-        <item>
-            <title>2.12.1</title>
-            <pubDate>Tue, 27 Oct 2026 15:46:06 +0000</pubDate>
-            <sparkle:version>328</sparkle:version>
-            <sparkle:shortVersionString>2.12.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Scribe opens and saves without freezing, holds downloads to their limits, and never replaces a library that only failed to open.</em></p>
-<ul>
-  <li>The weekly library backup is made in the background, so a launch when one is due no longer pauses before the window responds.</li>
-  <li>Emptying expired pieces from the bin happens in the background, a few at a time, after the window opens.</li>
-  <li>A backup that fails part-way no longer replaces the last good one.</li>
-  <li>Fixed: if your library couldn't be opened for a passing reason, such as another copy of Scribe holding it, Scribe set it aside and started an empty one. Now it leaves it untouched, says so, and tries again when you ask; anything added meanwhile isn't kept.</li>
-  <li>A damaged library is set aside together with its working files, never over an earlier copy, and put back if starting a fresh one fails.</li>
-  <li>While a library is set aside, Scribe no longer runs its weekly backup or empties the bin, so neither can disturb the preserved copy.</li>
-  <li>A page larger than 30 MB stops downloading as soon as it passes the limit, and says "That page is too large to save" instead of a network error.</li>
-  <li>An article saves at most 300 images, 150 MB in all; any past that keep their web address.</li>
-  <li>A book is held to its size limit by what it actually unpacks, not what its archive claims, and a chapter too large to read is skipped.</li>
-  <li>Saving a page reads and tidies it in the background, so Scribe stays responsive while a long article is saved.</li>
-  <li>Cancelling a save stops it sooner.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.1/Scribe-2.12.1.zip" length="10735473" type="application/octet-stream" sparkle:edSignature="eS/1MG4eVDWSOpKIVZnYT2gB4eucMkbCoKlXFQ4YP1YLZXWSoYF8JRuxcdEeCnbZmXNqYTKauL6yvRyVHmTuAw=="/>
         </item>
     </channel>
 </rss>
