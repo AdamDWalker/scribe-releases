@@ -3,6 +3,34 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.15.0</title>
+            <pubDate>Sat, 31 Oct 2026 10:07:21 +0000</pubDate>
+            <sparkle:version>404</sparkle:version>
+            <sparkle:shortVersionString>2.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>The library gets its plain controls: a Bin, Mark as Finished and a visible read list, saving from anywhere, saving an article again, gilt-edged favourites, better image repair and a log beside bug reports.</em></p>
+<ul>
+  <li>Info ▸ Actions ▸ Save again from the web fetches an article’s page afresh: new text and images replace the old, while the piece keeps its place on the stack, its category, tags, highlights and where you were. A title you’ve renamed stays yours.</li>
+  <li>It shows in the Save sheet like any save; if the page can’t be fetched, nothing changes and the sheet says why.</li>
+  <li>A favourite now shows it: a band of gold leaf along the top edge of its cover on the shelves and Today’s desk, a gold cap on its spine, and a small gold “Favourite” mark in contents lists, the stack and the Info drawer.</li>
+  <li>Help ▸ Report a Bug… now writes the last hour of Scribe’s log to a file and shows it in Finder beside the email draft, ready to drag in. The log says what Scribe did, not what you read: titles, links and notes are left out of it.</li>
+  <li>Settings ▸ Library ▸ Bin lists the pieces you’ve deleted, with when each went and how long it has left, and lets you restore one, delete it now, or empty the bin.</li>
+  <li>The Catalogue’s new Deleted status finds a deleted piece by search; it shows with Restore in place of opening.</li>
+  <li>Right-clicking a deleted piece offers Restore and Delete Now.</li>
+  <li>Mark as Finished and Mark as Unread, in a piece’s right-click menu, the Info drawer’s actions, the Reader menu (⇧⌘F) and the command palette. Finished sticks wherever your reading stopped; Unread forgets your place too.</li>
+  <li>At the end of a piece on your stack, a quiet bar offers to take it off the stack, finished, in one click.</li>
+  <li>A Finished option on each category’s shelf, a “Read” saved search in the Catalogue, and Today’s “N are finished” now opens the list.</li>
+  <li>Fixed: figures a site serves through an image proxy (Next.js, Netlify, Substack) were dropped when extraction lost them, because every one looked like the same image; they come back now.</li>
+  <li>Fixed: an image saved as an error page (an archive's "not found" page, say) stayed a broken frame for ever; it's fetched again from the page's own address, or taken out.</li>
+  <li>At the next launch every saved article's images are checked again, and from then on images that still fail are retried a few per launch, in the background, rather than once.</li>
+  <li>A bookmarklet (Settings ▸ Saving ▸ From your browser) saves the page you’re on; Scribe saves it quietly behind the top bar’s pill, and only opens Save if something went wrong.</li>
+  <li>Any app can hand Scribe a page to save with a `scribe://save?url=…` link.</li>
+  <li>Select a link or some text anywhere on your Mac and choose Services ▸ Save to Scribe.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.15.0/Scribe-2.15.0.zip" length="11030864" type="application/octet-stream" sparkle:edSignature="BLUvUn3c4Nq/HvgXfkQhavOrOknLecmmZ4LoysXiii3DpLmFCHRDnZ/mV71C38bkABUExEs5V7gi0ZZvjw1eBw=="/>
+        </item>
+        <item>
             <title>2.14.0</title>
             <pubDate>Sat, 31 Oct 2026 09:45:14 +0000</pubDate>
             <sparkle:version>384</sparkle:version>
@@ -41,25 +69,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.13.1/Scribe-2.13.1.zip" length="10843648" type="application/octet-stream" sparkle:edSignature="jnFgSi0W5L+zTANCGQ4XycUoznOeZeGoSeqgVp0PXRgwQLmrl8iaLQsMBB4T5BePTbjMD5gqWA4rzZ2jI5hGAw=="/>
-        </item>
-        <item>
-            <title>2.13.0</title>
-            <pubDate>Tue, 27 Oct 2026 16:53:56 +0000</pubDate>
-            <sparkle:version>352</sparkle:version>
-            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Today leads with what you're reading, the Catalogue gains shelves, kinds include Textbook and your own, and the reader's controls live in Aa and Info.</em></p>
-<ul>
-  <li>New: Textbook is one of the kinds a piece can be.</li>
-  <li>New: Settings ▸ Library ▸ Kinds lets you add kinds of your own, such as Lecture notes or Zine. They appear in a piece's details and in the Catalogue's filters; renaming one renames it on its pieces, and deleting one returns its pieces to Article, PDF or EPUB.</li>
-  <li>Today's big headline is now the piece you're reading (the last one you opened that's begun and not finished), marked "Continue reading". With nothing in progress it shows the top of your stack, as before.</li>
-  <li>New: switch the Catalogue between List and Shelf. Shelf sets every piece out as spines, one shelf per group in the arrangement you've chosen (A to Z, by length, newest), with the same search, filters and right-click actions. List stays the default.</li>
-  <li>The reader's "…" menu is gone. Its actions (the stack, favourite, rename, export highlights, the cover and delete) are now in Info, under Actions, beside the details they belong with.</li>
-  <li>A PDF's notes column is switched on and off in Aa, under Notes (⇧⌘A still works).</li>
-  <li>With keyboard navigation turned on in System Settings, the focused button, tab, filter or Aa control now shows a clear outline in Scribe's accent colour, distinct from hover and selection.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.13.0/Scribe-2.13.0.zip" length="10841313" type="application/octet-stream" sparkle:edSignature="+ph98awZOyLTRIf6M43/oOliWYmK66N8ij7OErOOl9bX1t00z60/Rl35TJep+P7m+rfEBxbYE12kaN7Ooub2DQ=="/>
         </item>
     </channel>
 </rss>
