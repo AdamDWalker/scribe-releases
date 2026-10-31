@@ -3,6 +3,32 @@
     <channel>
         <title>scribe</title>
         <item>
+            <title>2.14.0</title>
+            <pubDate>Sat, 31 Oct 2026 09:45:14 +0000</pubDate>
+            <sparkle:version>384</sparkle:version>
+            <sparkle:shortVersionString>2.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><em>A fixes release: Scribe launches and reads faster in a large library, saves your place without reloading everything, checks the library file before backing it up, refuses copy-protected and fixed-layout books with a reason, resumes interrupted saves, and reopens where you left off.</em></p>
+<ul>
+  <li>Fixed: every launch read the full text of every saved article for a one-time image repair that had already run. Launch now reads two small columns, and only when the repair is still owed.</li>
+  <li>Fixed: links were fetched with no browser identity, so some sites served a different page than Safari would, or none. Scribe now asks for pages as Safari does, in your languages.</li>
+  <li>Fixed: saving a very long PDF stored and indexed its whole text. PDFs now keep the same amount of searchable text as books (their first two megabytes), so the library file stays small and search stays quick.</li>
+  <li>Fixed: opening a large PDF or a long article read the file on the main thread, freezing the window and the reader's opening animation for a moment. Files and a book's chapters now load in the background, with the placeholder shown until they're ready.</li>
+  <li>Fixed: switching quickly from one piece to another could show the first piece's content in the second.</li>
+  <li>Fixed: Scribe saved your place on nearly every scroll step and page turn, and each save made the whole library reload behind the reader. Your place is now saved every few seconds while you read, and at once when you close a piece, switch to another, or leave Scribe.</li>
+  <li>Scribe now runs SQLite's quick check of the library file at launch, before the weekly backup. If the file has a problem, a notice says so and that week's backup is skipped, so the last good copy is kept.</li>
+  <li>Fixed: a copy-protected EPUB (from Apple Books, Adobe Digital Editions or a library's LCP loan) saved as a book of blank pages. Scribe now says it's copy-protected and can't be opened, instead of saving it.</li>
+  <li>Fixed-layout books (comics, picture books, some textbooks) are refused with a clear message rather than saved as badly flowed pages.</li>
+  <li>Fixed: quitting Scribe while a batch of links or files was still saving lost the ones that hadn't finished. The next launch now offers to resume them, from the Save sheet or the pill in the top bar.</li>
+  <li>Fixed: if something else had the library file open for a moment (a backup copying it, Finder, a second copy of Scribe), Scribe gave up at once. It now waits up to five seconds.</li>
+  <li>Developer builds: Xcode previews open a throwaway library instead of the real one, so rendering a preview can't migrate or back up your library.</li>
+  <li>Right-click a highlight in Highlights or the reader's notes rail and choose "Copy with Citation" to copy it as a quote with the piece's title, author, source, year and link, ready to paste.</li>
+  <li>Scribe now reopens on the tab, category or piece you had open when you quit. Turn this off in Settings ▸ Reading ("Open Scribe where I left off").</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.14.0/Scribe-2.14.0.zip" length="10893186" type="application/octet-stream" sparkle:edSignature="N6Zy7qPVkvhsnVBH+VkX6sFAg2gZT/EzDHYcCkMGvmhkNLHjPNAi2LsD7IhXgzyLr0ePRQHjVsybEXMiWqu/Dg=="/>
+        </item>
+        <item>
             <title>2.13.1</title>
             <pubDate>Fri, 30 Oct 2026 19:07:02 +0000</pubDate>
             <sparkle:version>356</sparkle:version>
@@ -34,26 +60,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.13.0/Scribe-2.13.0.zip" length="10841313" type="application/octet-stream" sparkle:edSignature="+ph98awZOyLTRIf6M43/oOliWYmK66N8ij7OErOOl9bX1t00z60/Rl35TJep+P7m+rfEBxbYE12kaN7Ooub2DQ=="/>
-        </item>
-        <item>
-            <title>2.12.2</title>
-            <pubDate>Tue, 27 Oct 2026 16:25:27 +0000</pubDate>
-            <sparkle:version>338</sparkle:version>
-            <sparkle:shortVersionString>2.12.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><em>Reading stays offline and private, each book keeps to its own files, and Scribe tells you when something couldn't be saved.</em></p>
-<ul>
-  <li>Reading is fully offline and private: an article image that didn't save, or a web image, font or stylesheet a book asks for, is no longer fetched when you open it. Scribe keeps trying to save missing images in the background.</li>
-  <li>Images that couldn't be saved are hidden rather than shown broken.</li>
-  <li>An open book can read only its own files: not the other books in your library, and not the web.</li>
-  <li>The reader keeps no cookies or website data between pieces.</li>
-  <li>Problems with saving, the library and housekeeping are written to the Mac's system log, so they can be looked into later without exposing what you read: links, titles, notes and error details are kept private.</li>
-  <li>If a highlight, note, tag, category, stack change or other edit can't be saved, a bar under the top bar says so, instead of it quietly not happening.</li>
-  <li>A note that can't be saved keeps its editor open with what you wrote.</li>
-  <li>Exporting highlights to a place that can't be written to now says so.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/AdamDWalker/scribe-releases/releases/download/v2.12.2/Scribe-2.12.2.zip" length="10780702" type="application/octet-stream" sparkle:edSignature="qcnnE6Q+JfzIeW8LpVTmWpnjD2GvRwAMn95/OiKjOH4dUDeQK3JNAvZcrtQiPDkMV7eKKLtmMPNLgMQ4IiSmAQ=="/>
         </item>
     </channel>
 </rss>
